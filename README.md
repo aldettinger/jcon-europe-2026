@@ -1,4 +1,4 @@
-# Javazone 2025
+# JCON Europe 2026
 
 ## How to prepare the demo ?
  + Prepare the mouse (otherwise the demo setup last more than 10 minutes)
