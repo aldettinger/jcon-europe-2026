@@ -3,7 +3,7 @@
 ## How to prepare the demo ?
  + Prepare the mouse (otherwise the demo setup last more than 10 minutes)
 
- + Create a terminator with 3 shells splitted horizontally
+ + Create a terminator with 3 shells split horizontally
  + In each shell, scroll up x9
  + In each shell, `cd ~/dev/projects/camel-quarkus-examples-upstream/data-extract-langchain4j/`
  + In shell 1, `git checkout camel-quarkus-main`
