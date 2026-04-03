@@ -8,7 +8,7 @@
  + In each shell, `cd ~/dev/projects/camel-quarkus-examples-upstream/data-extract-langchain4j/`
  + In shell 1, `git checkout camel-quarkus-main`
  + In shell 1, check clean status, `git status`
- + In shell 2, `docker run --rm -it -v cqex-data-extract-ollama:/root/.ollama -p 11434:11434 --name cqex-data-extract-ollama ollama/ollama:0.14.1`
+ + In shell 2, `docker run --rm -it -v cqex-data-extract-ollama:/root/.ollama -p 11434:11434 --name cqex-data-extract-ollama ollama/ollama:0.19.0`
  + In shell 3, `docker exec -it cqex-data-extract-ollama ollama pull granite4:3b-h` (no big deal if it fails for the D-Day)
  + In shell 1, `mvn clean package -DskipTests`
  + In shell 1, `java -jar target/quarkus-app/quarkus-run.jar`
