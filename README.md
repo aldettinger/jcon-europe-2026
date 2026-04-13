@@ -2,6 +2,7 @@
 
 ## How to prepare the demo ?
  + Prepare the mouse (otherwise the demo setup last more than 10 minutes)
+ + Deactivate Night Light mode
 
  + Create a terminator with 3 shells split horizontally
  + In each shell, scroll up x9
@@ -13,7 +14,7 @@
  + In shell 1, `mvn clean package -DskipTests`
  + In shell 1, `java -jar target/quarkus-app/quarkus-run.jar`
  + In shell 3, prepare command `./send-conversations-to-camel-route.sh`
- + In eclipse, open `camel-quarkus-examples-upstream/data-extract-langchain4j`
+ + In eclipse, open `camel-quarkus-examples-data-extract-langchain4j`
     + `application.properties`
     + `CustomPojoExtractionService.java`
     + `Routes.java`
